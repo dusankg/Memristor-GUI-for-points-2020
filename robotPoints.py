@@ -1,5 +1,4 @@
 import tkinter as tk
-from PIL import ImageTk,Image
 
 
 ''' TODO
@@ -13,8 +12,8 @@ win = tk.Tk()
 win.resizable(0,0)
 win.title("Robot points 2020")
 win.geometry("600x600")
-image1 = Image.open('background_image.jpg')
-backgroundImage = ImageTk.PhotoImage(image1)
+#image1 = Image.open('background_image.jpg')
+backgroundImage = tk.PhotoImage(file = 'background_image.png')
 background_label = tk.Label(win, image=backgroundImage)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
