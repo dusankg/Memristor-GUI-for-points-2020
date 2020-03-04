@@ -128,8 +128,8 @@ tk.OptionMenu(win, zelene_mala, 0,1,2,3).place(x=130, y=370)
 
 
 lab_crvene_na_liniji_mala = tk.Label(win, text = "Crvene")
-lab_crvene_na_liniji_mala.place(x=225, y=350)
-tk.OptionMenu(win, crvene_mala, 0,1,2,3).place(x=225, y=370)
+lab_crvene_na_liniji_mala.place(x=235, y=350)
+tk.OptionMenu(win, crvene_mala, 0,1,2,3).place(x=230, y=370)
 
 
 lab_unutar_mala = tk.Label(win, text = "Unutar")
