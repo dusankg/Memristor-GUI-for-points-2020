@@ -138,7 +138,7 @@ tk.OptionMenu(win, unutar_mala, 0,1,2,3,4,5).place(x=180, y=370)
 
 # button for counting points from table
 tk.Button(win, text="Bodovi sa stola", command = count_table_points).place(x=80, y=530)
-tk.Label(win, textvariable = table_points).place(x=180, y=530)
+tk.Label(win, textvariable = table_points).place(x=200, y=530)
 
 # enter prediction points
 tk.Label(win, text = "Predikcija: ").place(x=290, y=450)
@@ -147,15 +147,15 @@ box_prediction.place(x=350, y=450)
 
 # total points
 tk.Button(win, text = "Ukupni bodovi", command = count_total_points).place(x=290, y=530)
-tk.Label(win, textvariable = total_points).place(x=390, y=530)
+tk.Label(win, textvariable = total_points).place(x=410, y=530)
 
 # robots in valid mooring zone
 tk.Label(win, text = "Roboti u dobroj luci: ").place(x=80, y=450)
-tk.OptionMenu(win, roboti_u_dobroj_luci, 0,1,2).place(x=200, y=442)
+tk.OptionMenu(win, roboti_u_dobroj_luci, 0,1,2).place(x=210, y=442)
 
 # raisted flag
 tk.Label(win, text = "Podignuta zastavica").place(x=80, y=485)
-tk.Checkbutton(win, variable=zastavica).place(x=200, y=485)
+tk.Checkbutton(win, variable=zastavica).place(x=210, y=485)
 
 win.mainloop()
 
