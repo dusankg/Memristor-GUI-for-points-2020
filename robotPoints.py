@@ -112,29 +112,29 @@ tk.Checkbutton(win, variable=vetrokaz2).place(x=430, y=380)
 # case
 lab_crvene_na_liniji_velika = tk.Label(win, text = "Crvene na liniji")
 lab_crvene_na_liniji_velika.place(x=500, y=140)
-tk.OptionMenu(win, crvene_linija_velika, 0,1,2,3).place(x=515, y=160)
+tk.OptionMenu(win, crvene_linija_velika, 0,1,2,3,4,5,6).place(x=515, y=160)
 
 lab_case_unutar_velika = tk.Label(win, text = "Case unutar")
 lab_case_unutar_velika.place(x=500, y=190)
-tk.OptionMenu(win, case_unutar_velika, 0,1,2,3,4,5).place(x=515, y=210)
+tk.OptionMenu(win, case_unutar_velika, 0,1,2,3,4,5,6).place(x=515, y=210)
 
 lab_zelene_na_liniji_velika = tk.Label(win, text = "Zelene na liniji")
 lab_zelene_na_liniji_velika.place(x=500, y=240)
-tk.OptionMenu(win, zelene_linija_velika, 0,1,2,3).place(x=515, y=260)
+tk.OptionMenu(win, zelene_linija_velika, 0,1,2,3,4,5,6).place(x=515, y=260)
 
 lab_zelene_na_liniji_mala = tk.Label(win, text = "Zelene")
 lab_zelene_na_liniji_mala.place(x=130, y=350)
-tk.OptionMenu(win, zelene_mala, 0,1,2,3).place(x=130, y=370)
+tk.OptionMenu(win, zelene_mala, 0,1,2,3,4,5,6).place(x=130, y=370)
 
 
 lab_crvene_na_liniji_mala = tk.Label(win, text = "Crvene")
 lab_crvene_na_liniji_mala.place(x=235, y=350)
-tk.OptionMenu(win, crvene_mala, 0,1,2,3).place(x=230, y=370)
+tk.OptionMenu(win, crvene_mala, 0,1,2,3,4,5,6).place(x=230, y=370)
 
 
 lab_unutar_mala = tk.Label(win, text = "Unutar")
 lab_unutar_mala.place(x=180, y=350)
-tk.OptionMenu(win, unutar_mala, 0,1,2,3,4,5).place(x=180, y=370)
+tk.OptionMenu(win, unutar_mala, 0,1,2,3,4,5,6).place(x=180, y=370)
 
 # button for counting points from table
 tk.Button(win, text="Bodovi sa stola", command = count_table_points).place(x=80, y=530)
